@@ -12,9 +12,9 @@
 		<div>
 			<h1><span>Awesome</span> Boilerplate</h1>
 			<p>
-				<label>Jump To Content</label><br>
-				<label>Jump To Footer</label><br>
-				<label>Jump To Kitties</label>
+				<label>Jump To <a href="#section">Content</a></label><br>
+				<label>Jump To <a href="#footer">Footer</a></label><br>
+                <label >Jump To <a href="https://www.petfinder.com/cats">Kitties</label></a>
 			</p>
 		</div>
 	</header>
@@ -22,12 +22,23 @@
 		<section>
 			<article>
 			<!--ToDo Input Fields-->	
-			Input fields belongs here :)
+			    <input type="text"  value="Name"/><br>
+                <input type="text"  value="Vorname"/><br>
+                <input type="text"  value="E-Mail"/><br>
+                <input type="text"  value="Telefonnummer"/><br>
+                <input type="text"  value="Geburtsdatum"/><br>
+                <input type="text"  value="Telefonnummer"/><br>
+                Drop-Down<br/>
+                <select name="studiengang" size="1">
+                    <option value="UIB" selected="selected">UIB</option> 
+                    <option value="IB">IB</option> 
+                    <option value="IMB">IMB</option>
+                </select>
 
 			</article>
 
 		</section>
-		<section>
+		<section id=section>
 			<article>
 				<figure>
 					<div class="icon icon-learn"></div>
@@ -63,14 +74,14 @@
 				<h3>Follow Us</h3>
 				<p>
 					Falls du fragen hast, kannst du dich jederzeit an 
-					<a href="https://git.com/CodeKittey">@Codekittey</a>, wenden oder eine
+					<a href="https://github.com/CodeKittey">@Codekittey</a>, wenden oder eine
 					Email schreiben: m.kraus@hs-mannheim.de
 				</p>
 			</article>
 		</section>
 	</main>
-	<footer>
-		<img src="img/nodschool.svg"></a>
+	<footer id=footer>
+		<img src="img/nodeschool.svg">
 	</footer>
 	<script src="design/index.js"></script>
 </body>
